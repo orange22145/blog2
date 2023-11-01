@@ -9,6 +9,10 @@ use App\Models\BlogComment;
 class BlogPostController extends Controller
 {
 
+    public function fuck(){
+        dd("fuck");
+                
+            }
     //ブログ記事を投稿
  public function postBlogArticle(Request $request)
     {
