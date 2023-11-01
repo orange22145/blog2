@@ -11,7 +11,7 @@ class BlogPostController extends Controller
 
 <<<<<<< HEAD
     public function fuck(){
-        dd("fuck");
+        dd("fっっｚ");
                 
             }
 =======
