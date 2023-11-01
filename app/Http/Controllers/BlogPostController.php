@@ -9,8 +9,8 @@ use App\Models\BlogComment;
 class BlogPostController extends Controller
 {
 
-    public function aaa(){
-dd("aaaassaaaaaaaq");
+    public function aaa22(){
+dd("22aaaassaaaaaaaq");
         
     }
     //ブログ記事を投稿

@@ -8,8 +8,8 @@ use App\Models\BlogComment;
 class CommentController extends Controller
 {
     
-    public function bbb(){
-        dd("bbaaabbb");
+    public function bbb2(){
+        dd("2bbaaabbb");
                 
             }
 //コメント投稿
