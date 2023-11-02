@@ -10,14 +10,14 @@ class BlogPostController extends Controller
 {
 
 <<<<<<< HEAD
-    public function zzzzz(){
-        dd("aaaak");
+    public function qqqqqqqqqqqqqqqqqqz(){
+        dd("aaqqqqqqqqqqqqqqqqaak");
                 
             }
 =======
 <<<<<<< HEAD
     public function fuck(){
-        dd("fっっｚ");
+        dd("qqqqqqfっっｚ");
                 
             }
 =======
