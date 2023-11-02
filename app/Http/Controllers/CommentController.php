@@ -8,8 +8,18 @@ use App\Models\BlogComment;
 class CommentController extends Controller
 {
     
+<<<<<<< HEAD
     public function zzz(){
         dd("zzzzz");
+=======
+<<<<<<< HEAD
+    public function fuck(){
+        dd("fuck");
+=======
+    public function bbaaab2aaaa(){
+        dd("更新2bbaaaaabbb");
+>>>>>>> cecbfe1573a39ae5b9efb9dfad4cda1d72825aeb
+>>>>>>> 94e8a0f7a539e74efd0fd86e2e1fa81a24cb24aa
                 
             }
 //コメント投稿
