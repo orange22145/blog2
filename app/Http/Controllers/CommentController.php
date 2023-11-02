@@ -7,6 +7,11 @@ use App\Models\BlogComment;
 //コメント投稿のコントローラー
 class CommentController extends Controller
 {
+    
+    public function zzz(){
+        dd("zzzzz");
+                
+            }
 //コメント投稿
     public function postComment(Request $request)
     {
