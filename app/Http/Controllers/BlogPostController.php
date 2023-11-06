@@ -8,25 +8,10 @@ use App\Models\BlogComment;
 //  ブログ記事を投稿&取得するコントローラー
 class BlogPostController extends Controller
 {
+    public function abc(){
 
-<<<<<<< HEAD
-    public function qqqqqqqqqqqqqqqqqqz(){
-        dd("aaqqqqqqqqqqqqqqqqaak");
-                
-            }
-=======
-<<<<<<< HEAD
-    public function fuck(){
-        dd("qqqqqqfっっｚ");
-                
-            }
-=======
-    public function aaaaaaa22111(){
-dd("更新--aaaaa");
         
     }
->>>>>>> cecbfe1573a39ae5b9efb9dfad4cda1d72825aeb
->>>>>>> 94e8a0f7a539e74efd0fd86e2e1fa81a24cb24aa
     //ブログ記事を投稿
  public function postBlogArticle(Request $request)
     {
