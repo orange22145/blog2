@@ -10,7 +10,7 @@ class BlogPostController extends Controller
 {
     public function abc(){
 
-        
+        dd("aaaa");
     }
     //ブログ記事を投稿
  public function postBlogArticle(Request $request)
