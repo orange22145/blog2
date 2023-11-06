@@ -8,7 +8,7 @@ use App\Models\BlogComment;
 //  ブログ記事を投稿&取得するコントローラー
 class BlogPostController extends Controller
 {
- public function aaaaaaaaaa()
+ public function xxxxx()
     {
 
     }
