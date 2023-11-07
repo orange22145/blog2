@@ -7,6 +7,10 @@ use App\Models\BlogComment;
 //コメント投稿のコントローラー
 class CommentController extends Controller
 {
+    public function aaaaaaa()
+    {
+
+    }
 //コメント投稿
     public function postComment(Request $request)
     {
