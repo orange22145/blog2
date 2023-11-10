@@ -42,6 +42,7 @@ class AuthController extends Controller
 
        // ユーザーモデルを作成してデータベースに保存する
        $user = User::create([
+        'name' =>'管理人',
            'email' => $request->email,
            'password' => $hashedPassword,
        ]);

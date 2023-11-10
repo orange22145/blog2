@@ -12,13 +12,19 @@ class CommentController extends Controller
     {
         $name = $request->input('name');
 
-   
+        $ipAddress = $request->ip();
+        $hostName = gethostbyaddr($ipAddress);
+
         $data = ([
 
             'article_id'  => $request->input('article_id'),
                 
             'comment_content' => $request->input('comment_content'),
             'comment_name' => $request->input('comment_name'),
+            'comment_user_agent'  => $request->header('User-Agent'),
+            'comment_ip'  => $ipAddress ,
+            'comment_hostname'  =>  $hostName,
+                
             'comment_date' => now(),
         ]);
 

@@ -12,7 +12,7 @@
     //ユーザー登録ページのblade
       @endphp
     <h2>Register</h2>
-    <form method="post" action="/join">
+    <form method="post" action="/admin/join.php">
         <div class="form-group">
         @csrf
         <input type="email" style="width:40%;" class="form-control" name="email" placeholder="Email" required><br>

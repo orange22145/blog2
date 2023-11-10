@@ -40,7 +40,11 @@
       
         <div id="table">
          <input type="checkbox"  name="ch_del[]" value="{{ $post->id }}"><a href="id={{$post->id }}"> {{ $post->id }}</a><br>名前： {{ $post->comment_name }}
-        <br>
+         <br>{{$post->comment_user_agent}}
+         <br>{{$post->comment_ip}}
+         <br>{{$post->comment_hostname}}
+
+         <br>
        
         
         @if(count($ids)>$counter)
@@ -49,7 +53,7 @@
          <br>
          {{ $post->comment_content }}
            <br><h5>投稿日時: {{$post->comment_date}}</h5>
-           <h5><a href="{{ route('comment.edit', $post->id) }}">編集</a></h5>  
+                   <h5><a href="{{ route('comment.edit', $post->id) }}">編集</a></h5>  
           </div>
         <br>
         <br>

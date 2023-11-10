@@ -18,6 +18,9 @@ class CommentManagementController extends Controller
         $posts = BlogComment::paginate($post_limit); 
         $ids=[];
         $titles=[];
+        // $ips=[];
+        // $host_names=[];
+        // $user_agents=[];
         //親記事と親IDの取得
         foreach ($posts as $post) {
          
@@ -28,7 +31,7 @@ if ($blog_post) {
    
     array_push($titles, $blog_post->post_title);
     array_push($ids, $blog_post->id);
-   
+
 }
 
       

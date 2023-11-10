@@ -14,10 +14,11 @@ return new class extends Migration
         Schema::create('blog_comments', function (Blueprint $table) {
            $table->id();
             $table->integer('article_id');
-            $table->longText('comment_name');
+            $table->Text('comment_name');
             $table->longText('comment_content');
-   
-           
+            $table->Text('comment_user_agent');
+            $table->Text('comment_ip');
+            $table->Text('comment_hostname');
             $table->dateTime('comment_date');
             $table->timestamps();
         });
